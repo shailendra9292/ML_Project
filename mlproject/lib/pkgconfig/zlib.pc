@@ -1,0 +1,13 @@
+prefix=/Users/shailendra24.singh/2024_learning/Krish_ml_pipeline/mlproject
+exec_prefix=/Users/shailendra24.singh/2024_learning/Krish_ml_pipeline/mlproject
+libdir=/Users/shailendra24.singh/2024_learning/Krish_ml_pipeline/mlproject/lib
+sharedlibdir=/Users/shailendra24.singh/2024_learning/Krish_ml_pipeline/mlproject/lib
+includedir=/Users/shailendra24.singh/2024_learning/Krish_ml_pipeline/mlproject/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

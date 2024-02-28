@@ -1,0 +1,9 @@
+prefix=/Users/shailendra24.singh/2024_learning/Krish_ml_pipeline/mlproject
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.1w
+Requires: libssl libcrypto
